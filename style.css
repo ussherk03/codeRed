@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.heading {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 1px 2px;
+}
+
+.lead {
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 9px;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.block-1 {
+    height: 90vh;
+    background-image: url('./3-1.jpg');
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+
+.block-1:hover > .welcome, .block-1:hover > .welcome-s {
+    letter-spacing: 4px;
+}
+
+.welcome {
+    font-size: 4rem;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    transition: 1s all;
+}
+
+.welcome-s{
+    font-family: 'Poppins Thin';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s all;
+}
+
+h5 {
+    font-size: 9px;
+}
+
+.welcome-btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #0000003e;
+    padding: 9px 15px;
+    border-radius: 29px;
+    border: 1px #fff solid;
+    transition: 0.9s all;
+}
+
+.welcome-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px #000 solid;
+}
+
+/* Styles for block-2 */
+
+#block-2 {
+    background-color: black;
+    padding: 5px 15px;
+}
+
+.title-2 {
+   text-align: center;
+   color: white;
+   padding: 0 auto;
+   margin: 1.5rem auto;
+   position: relative;
+}
+
+.line-2 {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: goldenrod;
+    margin-top: 5px; /* Space between text and dash */
+    text-align: center;
+    position: relative;
+    left: 50%;
+  }
+
+.p-2::first-letter {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.p-2 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+
+/* BLOCK-3 */
+
+.block-3 {
+    padding: 9px 5px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-0,
+.card-1, 
+.card-2 {
+    border: 0.5px black solid;
+    padding: 4px 9px;
+    border-radius: 6px;
+}
+
+.card-1, .card-2 {
+    margin-left: 6px;
+}
+
+.card-0_title,
+.card-1_title,
+.card-2_title {
+    text-align: center;
+}
+
+
+
+
